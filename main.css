@@ -1,0 +1,54 @@
+html,body{
+  margin: 0;
+  padding:0;
+}
+
+.absolute-element {
+ background-color: rgb(9, 9, 10);
+ width: 100%;
+ height: 750px;
+ 
+}
+
+
+.icon{
+  position:absolute;
+  display:inline-block;
+  font-size: 200px;
+  color: black;
+  
+}
+  
+.absolute-element  .icon {
+  color: white;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  top: 40%;
+  left: 50%;
+
+
+  
+} 
+.absolute-element2{
+  background-color: green;
+  position: relative;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0%;
+  left: 80px;
+  margin: auto;
+  top: 40%;
+
+}
+
+
+
+ 
+
